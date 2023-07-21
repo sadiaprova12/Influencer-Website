@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/*
+.header{
+    background: #FFF;
+    background-image: url('../images/Circle\ design.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right , bottom left;
+} */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.nav-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+    display: flex;
+}
+
+nav li:hover{
+    color: greenyellow;
+    
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    background: white;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: 850px;
+}
+
+.banner{
+    margin: 0 200px;
+}
+
+.banner-sub-title{
+    color: brown;
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn-preebook{
+    color: white;
+    width: 142px;
+    height: 47px;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    font-size: 15px;
+    border: 0;
+    gap: 8px;
+    
+}
+
+.banner img{
+    display: flex;
+    
+    
+}

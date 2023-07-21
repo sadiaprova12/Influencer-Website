@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fefefe;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fefefe;
+}
+
+.menu-bar{
+    display: none;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li a{
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.nav-bar ul li a:hover{
+    color: magenta;
+    background: #fefefe;
+}
+
+.nav-bar ul li a.active{
+    color: magenta;
+    background: #fefefe;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+}
+
+.main a{
+    margin-right: 45px;
+    margin-left: 20px;
+    color: #fefefe;
+    font-size: 20px;
+}
+
+.main a:hover{
+    color: magenta;
+    transition: 0.5s;
+}
+
+/***************
+   Banner Styles
+
+   **************/
+   .banner{
+    background-image: url(../images/main-camera.png), url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right ;
+    width: 1100px;
+    height: 500px;
+    margin: 0 150px;
+    display: flex;
+    align-items: center;
+   }
+
+   .banner-sub-title{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+   }
+
+   .banner-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+   }
+
+   .btn-preebook{
+    color: white;
+    width: 152px;
+    height: 47px;
+    border-radius: 41px;
+    background-color: #E02C6D;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 25px;
+   }
+   
+.btn-preebook:hover{
+    background-color: white;
+    color: #E02C6D;
+    border: 1px solid #E02C6D;
+    transition: 0.5s;
+}
+
+   .btn-preebook i{
+    vertical-align: middle;
+    padding: 8px;
+   }
+
+  /* .banner img{
+    width: 440px;
+    height: 414px;
+    margin: 211px 50px;
+    padding: 40px;
+   } */
+
+   .main{
+    margin-top: 100px;
+   }
+
+   .main-logos{
+    
+   }
+
+/*******************
+Responsive Styles
+
+********************/
+
+/*@media only screen and (max-width: 1320px) {
+    header{
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    header{
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+   .menu-bar{
+    display: block;
+    cursor: pointer;
+   }
+
+   .menu-bar .line{
+      width: 30px;
+      height: 3px;
+      background: #fefefe;
+      margin: 6px 0;
+   }
+
+   .nav-bar {
+    height: 0;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: black;
+    transition: 0.5s;
+    overflow: hidden;
+   }
+
+   .nav-bar.active{
+    height: 450px;
+   }
+
+   .nav-bar ul {
+    display: block;
+    width: fit-content;
+    margin: 80px auto 0 auto;
+    text-align: center;
+    transition: 0.5s;
+    opacity: 0;
+   }
+
+
+   .nav-bar.active ul {
+    opacity: 1;
+   }
+
+   .nav-bar ul li a{
+    margin-bottom: 12px;
+   }
+
+   .main{
+    display: none;
+   }
+} */
